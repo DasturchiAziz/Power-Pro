@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+@import url(https://fonts.googleapis.com/css2?family=Maitree:wght@100;200;300;400;500;600;700&display=swap);
+body {
+  font-family: 'Maitree', serif;
+  background: linear-gradient( 241deg, #00e5ff, #2124ff );
+  width: 100%;
+  height: 200vh;
+  overflow-y: hidden;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .section::before{
+    content: '';
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.3));
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 65%;
+    left: 55%;
+    border-radius: 50%;
+}
+.section::after{
+    content: '';
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.3));
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    bottom: -6%;
+    left: 25%;
+    border-radius: 50%;
+    z-index: -1;
+} */
+.card{
+    width: 350px;
+    height: 450px;
+    background-color: #F3f3f3b5;
+    border-radius: 20px;
+    margin: 15% auto;
+}
+.batteryShape{
+    display: flex;
+    justify-content: center;
+    min-height: 450px;
+    flex-direction: column;
+    align-items: center;
+}
+.battery-border{
+    border: 3px solid rgba(38, 38, 38, 0.866);
+    width: 190px;
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+}
+.percetange{
+    background:linear-gradient(to left , #626474, #004e92);
+    width: 50%;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 1px;
+    right: 1px;
+    border-radius: 5px;
+    
+}
+.percent{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 7px;
+}
+.ischarching{
+    margin: 50px 0 0;
+    font-size: 25px;
+    font-family: 'Merienda', cursive;
+    
+}
+@media (max-width: 1024px){
+.card{
+    margin: 7% auto;
+}
+}   /* ----> 1024px <----- */
+
+
+@media (max-width: 912px){
+    .card{
+        margin: 45% auto;
+}
+}   /* ----> 912px <----- */
+
+
+@media (max-width: 768px){
+    .card{
+        margin: 35% auto;
+}
+}   /* ----> 768px <----- */
+
+
+@media (max-width: 540px){
+    .card{
+        width: 250px;
+        height: 350px;
+        margin: 25% auto;
+}
+.ischarching{
+    margin: 50px 0 0;
+    font-size: 16px;
+    font-family: 'Merienda', cursive;
+    
+}
+.battery-border{
+    border: 3px solid rgba(38, 38, 38, 0.866);
+    width: 160px;
+    height: 70px;
+    border-radius: 10px;
+    position: relative;
+}
+}  /* ----> 540px <----- */
+
+@media (max-width: 414px){
+    .card{
+        margin: 58% auto;
+}
+   }  /* ----> 414px <----- */
+
+  
+@media (max-width: 375px){
+    .card{
+        width: 220px;
+        height: 300px;
+        margin: 35% auto;
+}
+.battery-border{
+    border: 3px solid rgba(38, 38, 38, 0.866);
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+}
+.ischarching{
+    margin-bottom: 80px;
+    font-size: 16px;
+    font-family: 'Merienda', cursive;
+    
+}
+
+}  /* ------> 375px <--------- */
